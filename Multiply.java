@@ -1,7 +1,7 @@
 import java.util.Scanner;
-class Product
+class Multiply
 {
-    public static void main(String[] args)
+    public static void main(String []args)
     {
         int a,b;
         System.out.print("Enter two numbers:");

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Area
 {
-    public static void main(String[] args)
+    public static void main(String []args)
     {
         float r;
         System.out.print("Enter radius:");
