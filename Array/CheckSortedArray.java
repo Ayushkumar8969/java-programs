@@ -6,7 +6,7 @@ public class CheckSortedArray
         int j=0,flag=0;
         for(int i=1;i<n;i++)
         {
-            if(a[i]>a[j])
+            if(a[i]>=a[j])
             {
                 j++;
                 flag=1;
