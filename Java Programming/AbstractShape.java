@@ -1,14 +1,14 @@
 abstract class Shape
 {
-                                       int x=10,y=20;
+                                       int l,b,r;
                                      abstract void printArea();
 }
 class Rectangle extends Shape
 {
                                       void  printArea()
                                       {
-                                                  //  x=10;y=20;
-                                            System.out.println("Area="+(x*y));
+                                                   l=10,b=20;
+                                            System.out.println("Area="+(l*b));
                                       }
 
 }
@@ -16,16 +16,16 @@ class Triangle extends Shape
 {
                                           void printArea()
                                           {
-                                                   //  x=4;y=5;
-                                                 System.out.println("Area="+(0.5*x*y));
+                                                      l=15,b=30;
+                                                 System.out.println("Area="+(0.5*l*b));
                                           }
 }
 class Circle extends Shape
 {
                                             void printArea()
                                            {
-                                                 //  x=10;
-                                                 System.out.println("Area="+(3.14*x*x));
+                                                    r=10;
+                                                 System.out.println("Area="+(3.14*r*r));
                                            }
 }
 class Test
