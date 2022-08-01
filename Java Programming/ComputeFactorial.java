@@ -41,8 +41,8 @@ public class ComputeFactorial extends Applet implements ActionListener
                                                 }
                                                  else 
                                                  {
-                                                          tf1.setText();
-                                                          tf2.setText();
+                                                          tf1.setText("");
+                                                          tf2.setText("");
                                                  }
                         }
 }
