@@ -1,4 +1,4 @@
-class CheckSorted 
+class CheckSortedArray 
 {
                         static boolean arraySortedOrNot(int[] a)
                         {
