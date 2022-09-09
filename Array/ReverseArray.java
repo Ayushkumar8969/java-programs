@@ -1,25 +1,29 @@
-public class ReverseArray
+class ReverseArray
 {
-    public static void reverse(int[] a)
-    {
-        int n=a.length;
-        int i=0,j=n-1,temp;
-        while(i<j)
-        {
-            temp=a[i];
-            a[i]=a[j];
-            a[j]=temp;
-            i++;
-            j--;
-        }
-        for(int k=0;k<n;k++)
-        {
-            System.out.print(a[k]+" ");
-        }
-    }
-    public static void main(String[] args)
-    {
-        int[] a={10,20,30,40,50};
-        reverse(a);
-    }
+                       static void reverseArray(int[] a)
+                       {
+                                         int start=0;
+                                       int end=a.length-1;
+                                    while(start<=end)
+                                    {
+                                            swap(a,start,end);
+                                              start++;
+                                               end--;
+                                    }
+                       }
+                         static void swap(int[] a,int start,int end) 
+                         {
+                                        int temp=a[start];
+                                          a[start]=a[end];
+                                            a[end]=temp;
+                         }
+                            public static void main(String[] args)
+                            { 
+                                          int[] a={15,25,35,55,65};
+                                             reverseArray(a);
+                                          for(int i=0;i<a.length;i++)
+                                          {
+                                                  System.out.print(a[i]+" ");
+                                          }
+                            }
 }
