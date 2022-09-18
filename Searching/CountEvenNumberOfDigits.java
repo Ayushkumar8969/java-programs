@@ -11,6 +11,10 @@ class CountEvenNumberOfDigits
                                                       {
                                                                    int count1=0;
                                                                    int n=arr[i];
+                                                                   if(n==0)
+                                                                   {
+                                                                         return 1;
+                                                                   }
                                                                       /*  while(n!=0) 
                                                                         {
                                                                                count1++;
