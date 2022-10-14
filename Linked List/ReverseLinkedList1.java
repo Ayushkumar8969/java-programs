@@ -28,7 +28,7 @@ class LinkedList
                                  }
                                  public Node reverse(Node head)
                                  {
-                                                            if(head.next==null || head==null)
+                                                            if(head==null || head.next==null)
                                                             {
                                                                        return head;
                                                             }
